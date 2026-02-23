@@ -1,0 +1,36 @@
+# AraBenchAlpha - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core Data & Analysis ──────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0              # Excel file handling
+
+# ── Visualization ──────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0               # Interactive plots (optional)
+
+# ── Web Scraping & API Clients ─────────────────────────────────
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0                  # HTML/XML parser
+arxiv>=2.0.0                 # Arxiv API client
+
+# ── NLP & Text Processing (for RQ2 & RQ3) ─────────────────────
+# Uncomment if needed for advanced analysis
+# sentence-transformers>=2.2.0    # For MSSM / STS
+# transformers>=4.30.0            # Hugging Face models
+# datasets>=2.12.0                # HF datasets
+# nltk>=3.8.1                     # Traditional NLP metrics
+# rouge-score>=0.1.2              # ROUGE metric
+# bert-score>=0.3.13              # BERTScore
+
+# ── Statistical Analysis (for RQ3) ─────────────────────────────
+scipy>=1.10.0
+# statsmodels>=0.14.0             # Advanced statistics (optional)
+# scikit-learn>=1.3.0             # ML utilities (optional)
+
+# ── Utilities ──────────────────────────────────────────────────
+tqdm>=4.65.0                 # Progress bars
+python-dateutil>=2.8.2
